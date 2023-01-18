@@ -1,0 +1,55 @@
+.Gallery {
+  max-height: calc(75vh + 10vmin);
+  overflow: auto;
+
+  margin-left: calc(22% + 4vmin);
+
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top: 0;
+  width: calc(74% + 4vmin);
+  max-width: 74%;
+}
+
+.iconButton {
+  background-color: #000000;
+  border: none;
+  border-radius: 100%;
+  margin: 1vw 1vw 0 0;
+}
+
+.choice1, .choice2 {
+  float: right;
+  color: #fff;
+  margin: 2vw;
+}
+
+.choice1 {
+  border: 1px solid #B3B3B3;
+  border-radius: 50px 50px;
+  padding: 0.5vw;
+  width: 12%;
+}
+
+.choice2 {
+  background-color: #000000;
+  border-radius: 50px 50px;
+  padding: 0.6vw;
+  width: 20%;
+}
+
+.choice2 ul {
+  width: 15px;
+  height: 1vh;
+  background-color: #272E32;
+  color: #272E32;
+  border-radius: 100%;
+}
+
+.icon {
+  margin-top: 0.5vw;
+  color: #fff;
+  font-size: 1.8vw;
+}

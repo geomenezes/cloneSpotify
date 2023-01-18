@@ -1,0 +1,61 @@
+.Library {
+  background-color: #000000;
+
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 2vw 0 2vw;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(16% + 4vmin);
+  height: 90vh;
+}
+
+.Library1 a{
+  font-size: calc(1vw + 2vmin);
+}
+.Library1 a svg{
+  font-size: calc(2vw + 2vmin);
+  margin-right: 1vw;
+  margin-bottom: -0.5vw;
+}
+
+.Library2 {
+  color: #B3B3B3;
+  margin: 1.5vw 0 calc(1vw + 1vmin) 0;
+}
+
+.Library2 a:hover {
+  color: #fff;
+}
+
+.Library2 a {
+  color: #B3B3B3;
+  font-size: calc(0.2vw + 2vmin);
+}
+
+.Library2 a svg {
+  font-size: calc(1vw + 2vmin);
+  margin: 1vw 1.5vw -0.5vw 0;
+}
+
+.Library3 {
+  max-height: calc(1vw + 20vmin);
+  padding-top: calc(0.5vw + 1vmin);
+  border-top: 1px solid #272E32;
+}
+
+.Library3:hover {
+  overflow: auto;
+}
+
+.Library3 a {
+  color: #B3B3B3;
+  line-height: 2;
+  font-size: calc(0.1vw + 2vmin);
+}
+
+.Library3 a:hover {
+  color: #fff;
+}
